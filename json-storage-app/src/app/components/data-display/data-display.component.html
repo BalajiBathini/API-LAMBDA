@@ -1,0 +1,8 @@
+<!-- src/app/components/data-display/data-display.component.html -->
+
+<h3>Stored JSON Data</h3>
+<ul>
+  <li *ngFor="let data of jsonDataArray">
+    {{ data | json }}
+  </li>
+</ul>
